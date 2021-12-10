@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
+
+        <Image src="/images/me.png" height={244} width={244} alt="Nathan" />
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
